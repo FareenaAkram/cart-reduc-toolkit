@@ -1,0 +1,39 @@
+.button {
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  border-color: transparent;
+  color: white;
+  padding: 0.55rem 1.1rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+  transition: all 0.2s ease;
+}
+
+.button:hover,
+.button:active {
+  background: linear-gradient(135deg, #4338ca, #4f46e5);
+  border-color: transparent;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 22px rgba(99, 102, 241, 0.55);
+}
+
+.icon {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.badge {
+  background-color: #22d3ee;
+  border-radius: 20px;
+  padding: 0.05rem 0.55rem;
+  color: #0f172a;
+  font-size: 0.78rem;
+  font-weight: 700;
+  min-width: 1.4rem;
+  text-align: center;
+}

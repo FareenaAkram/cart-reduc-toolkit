@@ -1,0 +1,98 @@
+.item {
+  margin: 0.4rem 0;
+  background: rgba(30, 41, 59, 0.8);
+  padding: 0.85rem 1.1rem;
+  border-radius: 10px;
+  border: 1px solid rgba(99, 102, 241, 0.08);
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.item:hover {
+  border-color: rgba(99, 102, 241, 0.25);
+  background: rgba(30, 41, 59, 1);
+}
+
+.item h3 {
+  margin: 0 0 0.2rem 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #e2e8f0;
+}
+
+.item header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.6rem;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: #64748b;
+  font-size: 0.85rem;
+}
+
+.quantity span {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #a5b4fc;
+  background: rgba(99, 102, 241, 0.15);
+  padding: 0.05rem 0.5rem;
+  border-radius: 6px;
+  min-width: 1.5rem;
+  text-align: center;
+}
+
+.price {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #22d3ee;
+}
+
+.itemprice {
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: ##c3cdda;
+  font-style: normal;
+  display: block;
+  margin-top: 0.1rem;
+  text-align: right;
+}
+
+.actions {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.actions button {
+  background: rgba(99, 102, 241, 0.08);
+  border: 1px solid rgba(99, 102, 241, 0.25);
+  color: #a5b4fc;
+  padding: 0;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 1.8rem;
+  height: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.actions button:hover,
+.actions button:active {
+  background: #6366f1;
+  border-color: #6366f1;
+  color: white;
+  transform: none;
+  box-shadow: none;
+}
